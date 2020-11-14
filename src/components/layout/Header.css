@@ -1,0 +1,48 @@
+a{
+    transition: .2s ease-in-out;
+}a:hover{
+    text-decoration: none;
+    color: #fac44e;
+}
+.logo img{
+    width: 95px;
+}
+header{
+    box-shadow: 0 -5px 7px 0px #000;
+    background: #fff;
+}
+header .container-fluid{
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+    padding-top: 10px;
+    display: flex;
+}
+nav a{
+    padding: 7px 21px;
+    font-weight: 700;
+    color: #1b2437;
+}
+.App{ 
+     background: rgb(255,241,213);
+    background: -webkit-linear-gradient(0, rgb(255, 246, 229) 0%, rgb(253, 247, 237) 50%, rgb(255, 253, 249) 100%);
+    background: linear-gradient(0,  rgb(255, 246, 229) 0%, rgb(253, 247, 237) 50%, rgb(255, 253, 249) 100%);
+}
+.topSocial{
+    display: flex;
+}
+.fab{
+    font-size: 20px;
+    color: #fac44e;
+    transition: .2s;
+    width: 35px;
+    height: 35px;
+    background-color: #eef1fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fab:hover{
+    transform: translateY(-2px)
+}
